@@ -1,0 +1,86 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AI, laboratory, and automation visual</title>
+  <desc id="desc">A calm abstract scene combining data networks, laboratory glassware, and automation signals for Efficacy AI Learning Hub.</desc>
+  <rect width="1200" height="600" fill="#eef5f2"/>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1200" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#dcecea"/>
+      <stop offset="0.48" stop-color="#f7faf8"/>
+      <stop offset="1" stop-color="#d8ebe7"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="344" x2="900" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f766e" stop-opacity="0.78"/>
+      <stop offset="0.52" stop-color="#5eead4" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0.38"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="600" fill="url(#panel)"/>
+  <circle cx="1020" cy="90" r="170" fill="#ffffff" opacity="0.65" filter="url(#soft)"/>
+  <circle cx="150" cy="500" r="210" fill="#0f766e" opacity="0.12" filter="url(#soft)"/>
+
+  <path d="M0 392C145 310 247 326 382 386C517 446 659 461 806 385C936 318 1057 318 1200 372V600H0V392Z" fill="#ffffff" opacity="0.78"/>
+  <path d="M0 396C142 330 258 329 390 382C526 437 657 444 807 378C942 318 1071 330 1200 386" stroke="url(#wave)" stroke-width="5"/>
+  <path d="M0 442C170 370 287 378 422 422C562 468 704 458 846 402C967 354 1086 367 1200 421" stroke="#0f766e" stroke-opacity="0.18" stroke-width="34"/>
+
+  <g opacity="0.5" stroke="#0f766e" stroke-width="1.5">
+    <path d="M74 88H318V246H74z"/>
+    <path d="M116 124H191V166H116z"/>
+    <path d="M215 124H274"/>
+    <path d="M215 148H286"/>
+    <path d="M116 196H282"/>
+    <path d="M116 218H242"/>
+    <path d="M354 90H578V246H354z"/>
+    <path d="M384 126H468V210H384z"/>
+    <path d="M494 126H544"/>
+    <path d="M494 152H558"/>
+    <path d="M494 178H536"/>
+  </g>
+
+  <g opacity="0.72">
+    <circle cx="98" cy="336" r="4" fill="#0f766e"/>
+    <circle cx="168" cy="294" r="5" fill="#f59e0b"/>
+    <circle cx="238" cy="322" r="4" fill="#0f766e"/>
+    <circle cx="312" cy="270" r="5" fill="#14b8a6"/>
+    <circle cx="382" cy="308" r="4" fill="#0f766e"/>
+    <circle cx="452" cy="246" r="5" fill="#f59e0b"/>
+    <circle cx="528" cy="292" r="4" fill="#0f766e"/>
+    <path d="M98 336L168 294L238 322L312 270L382 308L452 246L528 292" stroke="#0f766e" stroke-opacity="0.45" stroke-width="2"/>
+    <path d="M168 294L382 308M238 322L452 246M312 270L528 292" stroke="#f59e0b" stroke-opacity="0.35"/>
+  </g>
+
+  <g transform="translate(760 116)" stroke="#0f766e" stroke-width="2" opacity="0.52">
+    <path d="M52 0L104 30V90L52 120L0 90V30L52 0Z"/>
+    <path d="M170 30L210 53V99L170 122L130 99V53L170 30Z"/>
+    <path d="M280 5L326 31V84L280 110L234 84V31L280 5Z"/>
+    <path d="M104 60H130M210 76H234"/>
+  </g>
+
+  <g transform="translate(840 306)" opacity="0.72">
+    <path d="M80 0V132C80 160 57 182 30 182C3 182 -20 160 -20 132V0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-6 118H66" stroke="#14b8a6" stroke-width="6" stroke-linecap="round"/>
+    <path d="M20 0V-58H42V0" stroke="#0f766e" stroke-width="6" stroke-linejoin="round"/>
+    <rect x="108" y="18" width="54" height="164" rx="18" stroke="#0f766e" stroke-width="6"/>
+    <path d="M114 116H156" stroke="#14b8a6" stroke-width="6" stroke-linecap="round"/>
+    <rect x="194" y="-18" width="48" height="200" rx="18" stroke="#0f766e" stroke-width="6"/>
+    <path d="M200 80H236" stroke="#14b8a6" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.24" stroke="#0f766e">
+    <path d="M690 408C760 350 810 309 880 250C936 203 1008 139 1094 62"/>
+    <circle cx="1094" cy="62" r="42" stroke-width="14"/>
+    <path d="M1048 104L1119 33"/>
+    <path d="M676 424L716 384"/>
+  </g>
+
+  <g opacity="0.42" fill="#0f766e">
+    <circle cx="626" cy="148" r="5"/>
+    <circle cx="656" cy="148" r="5"/>
+    <circle cx="686" cy="148" r="5"/>
+    <rect x="616" y="178" width="210" height="12" rx="6"/>
+    <rect x="616" y="208" width="145" height="12" rx="6"/>
+    <rect x="616" y="238" width="180" height="12" rx="6"/>
+  </g>
+</svg>
