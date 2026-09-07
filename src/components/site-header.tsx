@@ -13,12 +13,12 @@ export function SiteHeader() {
             aria-hidden="true"
             className="flex size-9 items-center justify-center rounded-full bg-teal-900 text-sm font-bold text-white shadow-sm shadow-teal-900/20"
           >
-            EA
+            JR
           </span>
           <span className="leading-tight">
-            Efficacy AI
+            Junaid Ris
             <span className="block text-xs font-medium uppercase tracking-[0.16em] text-zinc-500">
-              Learning Hub
+              Design · AI · Biopharma
             </span>
           </span>
         </Link>

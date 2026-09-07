@@ -9,6 +9,8 @@ import { contentPillars } from "@/content/content-pillars";
 import { futureMonetizationPaths } from "@/content/growth";
 import { projects } from "@/content/projects";
 import { resources } from "@/content/resources";
+import { pharmaDispatch } from "@/content/pharma-dispatch";
+import { OrbitHero } from "@/components/orbit/orbit-hero";
 import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata = createPageMetadata("home");
@@ -50,44 +52,12 @@ export default function Home() {
 
   return (
     <main className="min-h-screen text-zinc-950">
-      <section className="relative isolate min-h-[calc(100vh-73px)] overflow-hidden bg-zinc-950 py-20 text-white">
-        <img
-          alt="Abstract AI, laboratory, and automation visual for Efficacy AI Learning Hub"
-          className="absolute inset-0 -z-20 h-full w-full object-cover"
-          src="/hero-ai-quality-automation.svg"
-        />
-        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-zinc-950/88 via-zinc-950/62 to-zinc-950/12" />
-        <div className="absolute inset-x-0 bottom-0 -z-10 h-40 bg-gradient-to-t from-zinc-950/90 to-transparent" />
-        <Container className="flex min-h-[calc(100vh-13rem)] items-center">
-          <div className="max-w-4xl py-10">
-            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-teal-200">
-              AI learning / pharma quality / automation
-            </p>
-            <h1 className="mt-5 text-4xl font-semibold tracking-normal text-white sm:text-5xl lg:text-6xl">
-              Building the future of AI enabled learning, pharma quality,
-              automation, and digital entrepreneurship.
-            </h1>
-            <p className="mt-6 max-w-3xl text-lg leading-8 text-zinc-100">
-              A professional learning and project hub documenting my journey
-              through artificial intelligence, machine learning, software
-              development, pharma quality systems, automation, and future
-              digital ventures.
-            </p>
-            <div className="mt-9 flex flex-wrap gap-3">
-              <Link
-                href="/projects"
-                className="rounded-full bg-white px-5 py-3 text-sm font-semibold text-zinc-950 transition hover:bg-teal-50"
-              >
-                View Projects
-              </Link>
-              <Link
-                href="/assignments"
-                className="rounded-full border border-white/45 bg-white/10 px-5 py-3 text-sm font-semibold text-white backdrop-blur transition hover:bg-white/20"
-              >
-                Explore Assignments
-              </Link>
-            </div>
-          </div>
+      <OrbitHero />
+
+      <section className="border-b border-zinc-200 bg-[#f7f7f3] py-14 sm:py-18">
+        <Container className="grid gap-8 lg:grid-cols-[0.75fr_1.25fr] lg:items-end">
+          <div><p className="eyebrow text-zinc-500">A design universe</p><h2 className="mt-3 text-3xl font-medium tracking-[-0.04em] text-zinc-950 sm:text-4xl">Where regulated systems meet expressive technology.</h2></div>
+          <p className="max-w-2xl text-base leading-7 text-zinc-600">My practice spans product interfaces, brand systems, AI-assisted workflows, and technical writing for the teams building what comes next in biopharma, robotics, and intelligent software.</p>
         </Container>
       </section>
 
@@ -184,6 +154,18 @@ export default function Home() {
                 key={article.id}
               />
             ))}
+          </div>
+        </Container>
+      </section>
+
+      <section id="dispatch" className="bg-[#eef2f5] py-16 sm:py-20">
+        <Container>
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+            <SectionHeader eyebrow="Original technical writing" title="AI Pharma Dispatch" description="A living notebook on AI, biopharma operations, robotics, and the writing practices that make technical change trustworthy." />
+            <span className="rounded-full border border-zinc-300 bg-white px-3 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-zinc-500">Updated monthly</span>
+          </div>
+          <div className="mt-8 grid gap-5 lg:grid-cols-3">
+            {pharmaDispatch.map((item) => <article key={item.id} className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm shadow-zinc-900/[0.04]"><div className="flex items-center justify-between text-xs uppercase tracking-[0.14em] text-zinc-400"><span>{item.label}</span><span>{item.date}</span></div><h3 className="mt-7 text-xl font-medium tracking-[-0.025em] text-zinc-950">{item.title}</h3><p className="mt-4 text-sm leading-6 text-zinc-600">{item.summary}</p><p className="mt-6 text-xs font-semibold text-teal-800">{item.readTime} <span className="ml-2">↗</span></p></article>)}
           </div>
         </Container>
       </section>

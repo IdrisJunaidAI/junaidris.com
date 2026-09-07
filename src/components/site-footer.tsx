@@ -16,19 +16,16 @@ export function SiteFooter() {
     <footer className="border-t border-zinc-200 bg-zinc-950 text-zinc-200">
       <div className="mx-auto grid max-w-7xl gap-10 px-5 py-12 sm:px-6 lg:grid-cols-[1.2fr_0.8fr_0.9fr_1.25fr] lg:px-8">
         <div>
-          <p className="text-lg font-semibold text-white">Efficacy AI Learning Hub</p>
+          <p className="text-lg font-semibold text-white">Junaid Ris</p>
           <p className="mt-4 max-w-xl text-sm leading-6 text-zinc-400">
-            A professional learning and project hub for AI, software development,
-            pharma quality systems, automation, healthcare innovation, and future
-            digital ventures.
+            Product design, biopharma technical writing, AI, robotics, and visual systems.
           </p>
           <div className="mt-6">
             <p className="text-sm font-semibold uppercase tracking-[0.16em] text-zinc-400">
               Professional identity
             </p>
             <p className="mt-3 text-sm leading-6 text-zinc-400">
-              AI student, pharma quality professional, automation learner, and
-              future digital resource builder.
+              Product designer and technical writer building clearer systems for complex work.
             </p>
           </div>
           <ul className="mt-5 flex flex-wrap gap-2 text-xs text-zinc-500">
@@ -85,8 +82,7 @@ export function SiteFooter() {
         <NewsletterSignup compact context="footer" theme="dark" />
       </div>
       <div className="border-t border-zinc-800 px-5 py-5 text-center text-xs text-zinc-500">
-        Copyright 2026 Efficacy AI Learning Hub. Built as a phased portfolio and
-        content platform foundation.
+        © 2026 Junaid Ris · junaidris.com
       </div>
     </footer>
   );

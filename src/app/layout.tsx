@@ -3,16 +3,16 @@ import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import "@/styles/globals.css";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://junaidris.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Efficacy AI Learning Hub",
-    template: "%s | Efficacy AI Learning Hub",
+    default: "Junaid Ris — Design, AI & Biopharma",
+    template: "%s | Junaid Ris",
   },
   description:
-    "A professional learning and project hub for AI, machine learning, software development, pharma quality systems, automation, and future digital ventures.",
+    "Junaid Ris is a product designer and technical writer working across AI, biopharma, robotics, and visual systems.",
 };
 
 export default function RootLayout({

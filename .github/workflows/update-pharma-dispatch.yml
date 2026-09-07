@@ -1,0 +1,28 @@
+name: Update AI Pharma Dispatch
+
+on:
+  schedule:
+    - cron: "17 14 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/update-pharma-dispatch.mjs
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-5-mini
+      - run: |
+          git config user.name "junaidris.com editorial bot"
+          git config user.email "actions@github.com"
+          git add src/content/pharma-dispatch.ts
+          git diff --cached --quiet || git commit -m "chore: refresh AI Pharma Dispatch"
+          git push
