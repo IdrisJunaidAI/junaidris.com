@@ -13,12 +13,12 @@ export function SiteHeader() {
             aria-hidden="true"
             className="flex size-9 items-center justify-center rounded-full bg-teal-900 text-sm font-bold text-white shadow-sm shadow-teal-900/20"
           >
-            JR
+            IJ
           </span>
           <span className="leading-tight">
-            Junaid Ris
+            Junaidris
             <span className="block text-xs font-medium uppercase tracking-[0.16em] text-zinc-500">
-              Design · AI · Biopharma
+              Idris Junaid · Design · AI
             </span>
           </span>
         </Link>

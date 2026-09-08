@@ -21,7 +21,7 @@ export default function AboutPage() {
         <PageHeader
           eyebrow="Professional identity"
           title="About"
-          description="Efficacy AI Learning Hub connects academic growth in artificial intelligence with practical experience in pharma quality, biotech manufacturing, analytical chemistry, and regulated operations."
+          description="Junaidris is the portfolio and learning platform of Idris Junaid, connecting artificial intelligence with practical experience in pharma quality, biotech manufacturing, analytical chemistry, and regulated operations."
         />
 
         <section className="mt-10 grid gap-10 border-y border-zinc-200 py-8 lg:grid-cols-[1fr_1.1fr]">

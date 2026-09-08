@@ -72,12 +72,12 @@ export const seoKeywordGroups = [
 
 export const metadataPlan = {
   home: {
-    pageTitle: "Efficacy AI Learning Hub",
+    pageTitle: "Junaidris — Idris Junaid",
     metaDescription:
-      "A professional AI learning hub for academic assignments, AI projects, pharma quality automation, and future content creation.",
-    openGraphTitle: "Efficacy AI Learning Hub",
+      "Junaidris is the portfolio and learning platform of Idris Junaid, covering AI, biopharma technical writing, robotics, and automation.",
+    openGraphTitle: "Junaidris — Idris Junaid",
     openGraphDescription:
-      "Explore academic assignments, AI projects, articles, and the learning roadmap behind Efficacy AI Learning Hub.",
+      "Explore academic assignments, AI projects, original articles, and the learning roadmap behind Junaidris.",
     targetKeywords: [
       "Artificial Intelligence student portfolio",
       "AI learning journey",

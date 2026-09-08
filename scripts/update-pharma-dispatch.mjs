@@ -14,7 +14,7 @@ const sourceText = (await Promise.all(feeds.map(async (url) => {
     return result.ok ? await result.text() : "";
   } catch { return ""; }
 }))).join("\n").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").slice(0, 18000);
-const prompt = `Write three original, concise technical-writing briefs for Junaid Ris's AI Pharma Dispatch using only the source headlines and summaries below. Focus on verified developments in AI, biopharma operations, pharma quality, robotics, or technical writing. Do not invent facts, claims, companies, dates, or citations. Return JSON only as an array of objects with id, date, label, title, summary, readTime. The voice is clear, rigorous, human, and practical. These are editorial briefs, not medical advice.\n\nSOURCE FEEDS:\n${sourceText}`;
+const prompt = `Write three original, concise technical-writing briefs for Idris Junaid's AI Pharma Dispatch using only the source headlines and summaries below. Focus on verified developments in AI, biopharma operations, pharma quality, robotics, or technical writing. Do not invent facts, claims, companies, dates, or citations. Return JSON only as an array of objects with id, date, label, title, summary, readTime. The voice is clear, rigorous, human, and practical. These are editorial briefs, not medical advice.\n\nSOURCE FEEDS:\n${sourceText}`;
 const response = await fetch("https://api.openai.com/v1/responses", {
   method: "POST",
   headers: { "Content-Type": "application/json", Authorization: `Bearer ${apiKey}` },

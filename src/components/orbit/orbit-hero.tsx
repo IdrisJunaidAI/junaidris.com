@@ -21,7 +21,7 @@ export function OrbitHero() {
       <div className="stars" aria-hidden="true" />
       <div className="mx-auto grid min-h-[760px] max-w-7xl items-center gap-10 px-5 py-20 sm:px-8 lg:grid-cols-[0.82fr_1.18fr] lg:px-10 lg:py-24">
         <div className="relative z-10 max-w-xl">
-          <p className="eyebrow text-[#b9d7ff]">Junaid Ris · Product designer & technical writer</p>
+          <p className="eyebrow text-[#b9d7ff]">Idris Junaid · Junaidris</p>
           <h1 className="mt-6 max-w-2xl text-5xl font-medium tracking-[-0.055em] text-white sm:text-6xl lg:text-[clamp(4rem,6vw,6.8rem)] lg:leading-[0.92]">
             Building experiences beyond screens.
           </h1>
@@ -30,7 +30,7 @@ export function OrbitHero() {
           </p>
           <div className="mt-9 flex flex-wrap gap-3">
             <Link href="#portfolio" className="button-primary">Explore portfolio <span aria-hidden="true">↗</span></Link>
-            <Link href="/contact" className="button-ghost">Hire me</Link>
+            <Link href="/resume" className="button-ghost">Hire me</Link>
           </div>
           <p className="mt-8 text-xs uppercase tracking-[0.18em] text-white/38">Product design · Branding · AI · Motion · Visual systems</p>
         </div>
@@ -53,7 +53,7 @@ export function OrbitHero() {
             </button>
           ))}
           <div className="portrait-core">
-            <div className="portrait-ring"><span>JR</span></div>
+            <div className="portrait-ring"><span>IJ</span></div>
             <p className="mt-3 text-center text-[10px] uppercase tracking-[0.18em] text-white/45">The designer</p>
           </div>
           <div className="active-project">Selected / <span>{active}</span></div>

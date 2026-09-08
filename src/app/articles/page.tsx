@@ -49,7 +49,7 @@ export default async function ArticlesPage({ searchParams }: ArticlesPageProps) 
         <PageHeader
           eyebrow="Content creation"
           title="Articles"
-          description="This page will grow into a content creation hub for AI learning, pharma quality, automation, student success, and entrepreneurship."
+          description="Read original technical writing by Idris Junaid on AI learning, biopharma quality, robotics, automation, and responsible technical communication."
         />
 
         <div className="mt-10">
@@ -58,7 +58,7 @@ export default async function ArticlesPage({ searchParams }: ArticlesPageProps) 
               {
                 label: "Article records",
                 value: articles.length,
-                description: "Editorial ideas structured before blog functionality.",
+                description: "Published and planned editorial pieces.",
               },
               {
                 label: "Featured",
@@ -101,7 +101,7 @@ export default async function ArticlesPage({ searchParams }: ArticlesPageProps) 
           <SectionHeader
             eyebrow="Explore"
             title="Filter the editorial pipeline"
-            description="Browse article ideas by content category and writing status."
+              description="Browse published writing and the editorial pipeline by category and status."
           />
           <div className="mt-6">
             <FilterBar

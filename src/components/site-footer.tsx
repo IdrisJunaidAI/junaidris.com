@@ -16,7 +16,7 @@ export function SiteFooter() {
     <footer className="border-t border-zinc-200 bg-zinc-950 text-zinc-200">
       <div className="mx-auto grid max-w-7xl gap-10 px-5 py-12 sm:px-6 lg:grid-cols-[1.2fr_0.8fr_0.9fr_1.25fr] lg:px-8">
         <div>
-          <p className="text-lg font-semibold text-white">Junaid Ris</p>
+          <p className="text-lg font-semibold text-white">Junaidris</p>
           <p className="mt-4 max-w-xl text-sm leading-6 text-zinc-400">
             Product design, biopharma technical writing, AI, robotics, and visual systems.
           </p>
@@ -82,7 +82,7 @@ export function SiteFooter() {
         <NewsletterSignup compact context="footer" theme="dark" />
       </div>
       <div className="border-t border-zinc-800 px-5 py-5 text-center text-xs text-zinc-500">
-        © 2026 Junaid Ris · junaidris.com
+        © 2026 Junaidris · Idris Junaid · junaidris.com
       </div>
     </footer>
   );

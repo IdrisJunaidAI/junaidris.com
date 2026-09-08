@@ -104,6 +104,10 @@ summary::-webkit-details-marker {
 .button-primary, .button-ghost { display: inline-flex; gap: .7rem; align-items: center; border-radius: 999px; padding: .82rem 1.15rem; font-size: .82rem; font-weight: 700; transition: transform .2s ease, background .2s ease; }
 .button-primary { background: #f1f4f8; color: #0b0d12; } .button-primary:hover { transform: translateY(-2px); background: white; }
 .button-ghost { border: 1px solid rgba(255,255,255,.25); background: rgba(255,255,255,.06); color: white; backdrop-filter: blur(10px); } .button-ghost:hover { transform: translateY(-2px); background: rgba(255,255,255,.12); }
+.button-dark, .button-light { display: inline-flex; align-items: center; border-radius: 999px; padding: .78rem 1.05rem; font-size: .8rem; font-weight: 700; }
+.button-dark { background: #111318; color: white; } .button-light { border: 1px solid #d5dad8; background: white; color: #145c56; }
+.resume-sheet { print-color-adjust: exact; }
+@media print { header, footer { display: none !important; } .resume-sheet { border: 0; box-shadow: none; padding: 0; } }
 @keyframes float { 0%, 100% { margin-top: 0; } 50% { margin-top: -12px; } }
 @keyframes drift { from { transform: translate3d(0,0,0); } to { transform: translate3d(25px,-18px,0); } }
 @media (max-width: 640px) { .universe { min-height: auto; } .orbit-stage { margin-top: 2rem; } .project-orb { width: 120px; min-height: 98px; padding: 12px; } .portrait-core { width: 140px; height: 140px; } .portrait-ring { width: 76px; height: 76px; } .active-project { display: none; } }

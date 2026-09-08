@@ -61,7 +61,7 @@ export default function Home() {
         </Container>
       </section>
 
-      <section className="bg-white py-16 sm:py-20">
+      <section id="portfolio" className="bg-white py-16 sm:py-20">
         <Container className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-start">
           <SectionHeader
             eyebrow="Professional identity"
@@ -281,7 +281,7 @@ export default function Home() {
               Academic, AI, quality, and content collaboration
             </h2>
             <p className="mt-4 max-w-2xl text-base leading-7 text-zinc-700">
-              Connect about assignment review, AI project ideas, pharma quality
+            Connect with Idris Junaid about assignment review, AI project ideas, pharma quality
               automation, learning content, or future professional opportunities.
             </p>
           </div>

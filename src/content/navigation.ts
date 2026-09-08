@@ -21,6 +21,11 @@ export const primaryNav: NavItem[] = [
     description: "Academic assignments, labs, and course deliverables.",
   },
   {
+    label: "Learning",
+    href: "/learning",
+    description: "Populated learning path across AI, software, quality, and automation.",
+  },
+  {
     label: "Projects",
     href: "/projects",
     description: "AI, automation, healthcare, robotics, and developer projects.",
@@ -39,6 +44,11 @@ export const primaryNav: NavItem[] = [
     label: "About",
     href: "/about",
     description: "Professional background, learning journey, and positioning.",
+  },
+  {
+    label: "Resume",
+    href: "/resume",
+    description: "Recruiter-ready resume for Idris Junaid.",
   },
   {
     label: "Contact",

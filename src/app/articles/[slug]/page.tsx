@@ -88,6 +88,22 @@ export default async function ArticleDetailPage({ params }: ArticleDetailPagePro
         </section>
 
         <section className="mt-12 border-t border-zinc-200 pt-8">
+          {article.sections?.length ? (
+            <div className="max-w-3xl space-y-10">
+              <SectionHeader eyebrow={article.publishedOn ? `Published ${article.publishedOn}` : "Editorial notes"} title="Original technical writing" description="Written by Idris Junaid for readers working across AI, biopharma, robotics, and technical systems." />
+              {article.sections.map((section) => (
+                <article key={section.heading}>
+                  <h2 className="text-2xl font-semibold tracking-tight text-zinc-950">{section.heading}</h2>
+                  <div className="mt-4 space-y-4 text-base leading-8 text-zinc-700">
+                    {section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+                  </div>
+                </article>
+              ))}
+            </div>
+          ) : null}
+        </section>
+
+        <section className="mt-12 border-t border-zinc-200 pt-8">
           <SectionHeader
             title="Editorial readiness"
             description="This route is prepared for future article drafts, outlines, research notes, publishing dates, and related resources."

@@ -8,11 +8,11 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://junaidris.com";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Junaid Ris — Design, AI & Biopharma",
-    template: "%s | Junaid Ris",
+    default: "Junaidris — Idris Junaid | Design, AI & Biopharma",
+    template: "%s | Junaidris",
   },
   description:
-    "Junaid Ris is a product designer and technical writer working across AI, biopharma, robotics, and visual systems.",
+    "Idris Junaid is a product designer and technical writer working across AI, biopharma, robotics, and visual systems through Junaidris.",
 };
 
 export default function RootLayout({

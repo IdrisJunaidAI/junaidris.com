@@ -19,7 +19,7 @@ export function createPageMetadata(page: MetadataPage): Metadata {
           url: "/hero-ai-quality-automation.svg",
           width: 1200,
           height: 600,
-          alt: "Efficacy AI Learning Hub abstract AI, laboratory, and automation visual",
+          alt: "Junaidris abstract AI, laboratory, and automation visual",
         },
       ],
     },
