@@ -108,6 +108,8 @@ summary::-webkit-details-marker {
 .button-dark { background: #111318; color: white; } .button-light { border: 1px solid #d5dad8; background: white; color: #145c56; }
 .resume-sheet { print-color-adjust: exact; }
 @media print { header, footer { display: none !important; } .resume-sheet { border: 0; box-shadow: none; padding: 0; } }
+.print-hide { cursor: pointer; }
+@media print { .print-hide { display: none !important; } }
 @keyframes float { 0%, 100% { margin-top: 0; } 50% { margin-top: -12px; } }
 @keyframes drift { from { transform: translate3d(0,0,0); } to { transform: translate3d(25px,-18px,0); } }
 @media (max-width: 640px) { .universe { min-height: auto; } .orbit-stage { margin-top: 2rem; } .project-orb { width: 120px; min-height: 98px; padding: 12px; } .portrait-core { width: 140px; height: 140px; } .portrait-ring { width: 76px; height: 76px; } .active-project { display: none; } }
