@@ -46,7 +46,7 @@ export function ArticleCard({ article, detailHref }: ArticleCardProps) {
               className="mt-3 inline-flex text-sm font-semibold text-teal-800 transition hover:text-teal-950"
               href={detailHref}
             >
-              View article details
+              {article.status === "published" ? "Read full article" : "View article details"}
             </Link>
           ) : null}
         </div>
