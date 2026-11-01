@@ -83,8 +83,8 @@ export default async function ArticlesPage({ searchParams }: ArticlesPageProps) 
         {featuredArticles.length > 0 ? (
           <div className="mt-14">
             <FeaturedSection
-              title="Featured article ideas"
-              description="Selected article records that connect coursework, professional experience, and future audience value."
+              title="Featured articles"
+              description="Full length articles on pharmaceutical AI, intelligent Quality systems, biotechnology and robotics."
             >
               {featuredArticles.map((article) => (
                 <ArticleCard
@@ -100,8 +100,8 @@ export default async function ArticlesPage({ searchParams }: ArticlesPageProps) 
         <section className="mt-14">
           <SectionHeader
             eyebrow="Explore"
-            title="Filter the editorial pipeline"
-              description="Browse published writing and the editorial pipeline by category and status."
+            title="Browse the article library"
+              description="Explore published features and upcoming writing by category and status."
           />
           <div className="mt-6">
             <FilterBar
