@@ -1,3 +1,4 @@
+import { newsletterArticles } from "./newsletter-articles";
 export type ArticleStatus = "idea" | "outline" | "draft" | "published";
 
 export type Article = {
@@ -14,9 +15,14 @@ export type Article = {
   featured: boolean;
   publishedOn?: string;
   sections?: { heading: string; paragraphs: string[] }[];
+  subtitle?: string;
+  takeaway?: string;
+  visual?: { kind: "cycle" | "ladder"; title: string; steps: string[] };
+  references?: { label: string; url: string }[];
 };
 
 export const articles: Article[] = [
+  ...newsletterArticles,
   {
     id: "learning-ai-from-beginner-to-builder",
     title: "How I Am Learning AI From Beginner to Builder",
